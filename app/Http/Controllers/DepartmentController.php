@@ -8,7 +8,7 @@ use App\Models\Employee;
 
 class DepartmentController extends Controller
 {
-    //one-to-many
+    //one-to-many(hasMany)
 
     // public function index()
     // {
@@ -21,7 +21,7 @@ class DepartmentController extends Controller
     //     }
     // }
 
-    //one-to-many(Inverse)
+    //one-to-many(Inverse) belongsTo
 
     public function index()
     {

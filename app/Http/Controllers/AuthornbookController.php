@@ -10,7 +10,7 @@ class AuthornbookController extends Controller
 {
     // public function index()
     // {
-        //many-to-many (For all data) based on author
+        //many-to-many (belongsToMany, For all data) based on author 
     //     $all = Author::with('book')->get(); // Get Author model with function "book" details 
     //     // dd($all->toArray()); //check all in array format
     //     foreach($all as $item)
@@ -37,7 +37,7 @@ class AuthornbookController extends Controller
     //     }
     // }
 
-    //many-to-many(Inverse with fetching all data)
+    //many-to-many(belongsToMany, Inverse with fetching all data)
         // public function index()
         // {
         //     $all = Book::with('author')->get();
