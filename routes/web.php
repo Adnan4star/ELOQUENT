@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AuthornbookController;
 use App\Http\Controllers\DepartmentController;
 use App\Http\Controllers\StudentController;
 use Illuminate\Support\Facades\Route;
@@ -15,5 +16,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/',[StudentController::class,'index']); //Route for student,studentprofile
-Route::get('/',[DepartmentController::class,'index']); //Route for department,Employee
+Route::get('/',[StudentController::class,'index']); //Route for StudentController
+Route::get('/',[DepartmentController::class,'index']); //Route for DepartmentController
+Route::get('/',[AuthornbookController::class,'index']); //Route for AuthornbookControllers
