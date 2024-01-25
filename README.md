@@ -1,16 +1,16 @@
 #### relationship 1
-one-to-one,
-one-to-one (Inverse)
+one-to-one <br>
+one-to-one (Inverse) <br>
 
 #### relationship 2
-one-to-many,
-one-to-many (Inverse)
+one-to-many <br>
+one-to-many (Inverse) <br>
 
 #### relationship 3
-many-to-many (for all data),
-many-to-many (for single data),
-many-to-many(Inverse with all data),
-many-to-many(Inverse with single data),
+many-to-many (for all data) <br>
+many-to-many (for single data) <br>
+many-to-many(Inverse with all data) <br>
+many-to-many(Inverse with single data) <br>s
 
 #### DATABASE TABLES DETAILS
 (relationship 1) <br>
