@@ -14,14 +14,14 @@ many-to-many(Inverse with single data),
 
 #### DATABASE TABLES DETAILS
 (relationship 1) <br>
-T1: Students: name(string), email(string),
-T2: student_profiles: student_id(foreign key), country(string).
+T1: Students: name(string), email(string) <br>
+T2: student_profiles: student_id(foreign key), country(string) <br>
 
-(relationship 2)
-T1: departments: name(string),
-T2: employees: depratment_id(string), name(string), phone(string).
+(relationship 2) <br>
+T1: departments: name(string) <br>
+T2: employees: depratment_id(string), name(string), phone(string) <br>
 
-(relationship 3)
-T1: authors: name(string),
-T2: books: title(string),
-T3: author_book (pivot): author_id(bigInteger), book_id(bigInteger).
+(relationship 3) <br>
+T1: authors: name(string) <br>
+T2: books: title(string) <br>
+T3: author_book (pivot): author_id(bigInteger), book_id(bigInteger) <br>
